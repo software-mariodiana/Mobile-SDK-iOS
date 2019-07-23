@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -25,7 +26,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status: Trying to connect..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Bak-4S-0aB">
-                    <rect key="frame" x="154" y="37" width="362" height="21"/>
+                    <rect key="frame" x="153.5" y="37" width="362" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="6Dt-uk-uQk"/>
                         <constraint firstAttribute="width" constant="362" id="bAY-xg-O7X"/>
@@ -35,7 +36,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firmware Package Version: Not Available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkz-4X-7cj">
-                    <rect key="frame" x="54" y="143" width="560" height="21"/>
+                    <rect key="frame" x="53.5" y="143" width="560" height="21"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="560" id="RIB-0q-OzL"/>
                         <constraint firstAttribute="height" constant="21" id="aLl-tQ-bWp"/>
@@ -45,7 +46,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model: Not Available" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PI2-Yc-rWq">
-                    <rect key="frame" x="54" y="111" width="560" height="21"/>
+                    <rect key="frame" x="53.5" y="111" width="560" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="0MS-gs-2US"/>
                         <constraint firstAttribute="width" constant="560" id="SjW-RX-EXX"/>
@@ -93,7 +94,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debug Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCe-rU-in2">
-                    <rect key="frame" x="181" y="66" width="306" height="21"/>
+                    <rect key="frame" x="180.5" y="66" width="306" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="U6I-Vr-4pQ"/>
                         <constraint firstAttribute="width" constant="306" id="nfO-jE-DPf"/>
@@ -142,6 +143,6 @@
         </view>
     </objects>
     <resources>
-        <image name="btn" width="16" height="34"/>
+        <image name="btn" width="16.5" height="34"/>
     </resources>
 </document>

@@ -5,8 +5,11 @@
 //  Copyright (c) 2015 DJI. All rights reserved.
 //
 
+// Added app key for com.arcos-inc.dronedevdemo bundle identifier.
+
 #import "AppDelegate.h"
-#import "DJIRootViewController.h"
+#import "Startup/DJIRootViewController.h"
+//#import "DJIRootViewController.h"
 #import <DJISDK/DJISDK.h>
 
 @implementation AppDelegate
